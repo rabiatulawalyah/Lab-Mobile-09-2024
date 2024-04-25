@@ -1,12 +1,12 @@
-package com.example.pertemuan4;
+package com.example.pertemuan5;
 
 import java.util.ArrayList;
 
 public class DataSource {
 
-    public static ArrayList<Instagram> instagrams = generateDummyInstagrams();
+    public static ArrayList<Instagram> instagrams =generateDummyInstagram();
 
-    private static ArrayList<Instagram> generateDummyInstagrams() {
+    private static ArrayList<Instagram> generateDummyInstagram() {
         ArrayList<Instagram> instagrams1 = new ArrayList<>();
         instagrams1.add(new Instagram("kairirds","kairi ygnacio rayosdelsol"
                 ,"siapa mau lawan?"
@@ -44,9 +44,11 @@ public class DataSource {
                 ,"maaf ya udah beda alam"
                 ,R.drawable.moonbin, R.drawable.moonbin));
 
-        instagrams1.add(new Instagram("alyahcans", "me"
+        instagrams1.add(new Instagram("alyarawl", "rawl"
                 ,"akur-akur suamiku!"
                 ,R.drawable.me, R.drawable.me));
         return instagrams1;
+
     }
+
 }

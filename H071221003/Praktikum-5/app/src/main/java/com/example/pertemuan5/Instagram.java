@@ -1,4 +1,4 @@
-package com.example.pertemuan4;
+package com.example.pertemuan5;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -7,14 +7,13 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 
 public class Instagram implements Parcelable {
-
     private String username;
     private String name;
     private String desc;
     private int fotoProfile;
     private int fotoPostingan;
-    private Uri selectedImageUri;
 
+    private Uri selectedImageUri;
 
     public Instagram(String username, String name, String desc, int fotoProfile, int fotoPostingan) {
         this.username = username;
@@ -24,14 +23,14 @@ public class Instagram implements Parcelable {
         this.fotoPostingan = fotoPostingan;
     }
 
-    public Instagram(String username, String me, String konten, int me1, Uri selectedImageUri) {
-        this.username = username;
+    public Instagram(String alyarawl, String me, String konten, int satu, Uri selectedImageUri) {
+        this.username = alyarawl;
         this.name = me;
         this.desc = konten;
-        this.fotoProfile = me1;
-        this.selectedImageUri = selectedImageUri;
-
+        this.fotoProfile = satu;
+        this.selectedImageUri =selectedImageUri;
     }
+
 
     public String getUsername() {
         return username;
@@ -87,6 +86,7 @@ public class Instagram implements Parcelable {
         desc = in.readString();
         fotoProfile = in.readInt();
         fotoPostingan = in.readInt();
+
     }
 
     public static final Creator<Instagram> CREATOR = new Creator<Instagram>() {
