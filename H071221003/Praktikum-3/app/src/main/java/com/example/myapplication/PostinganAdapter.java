@@ -10,13 +10,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.ArrayList;
-
 public class PostinganAdapter extends RecyclerView.Adapter<PostinganAdapter.ViewHolder> {
 
     private ArrayList<Instagram> instagrams;
-
     public PostinganAdapter(ArrayList<Instagram> instagrams) {
         this.instagrams = instagrams;
     }

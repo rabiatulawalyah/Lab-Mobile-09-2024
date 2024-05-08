@@ -1,13 +1,10 @@
 package com.example.pertemuan4;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-
-import com.example.pertemuan4.fragment.HomeFragment;
 
 public class MainActivity extends AppCompatActivity {
 

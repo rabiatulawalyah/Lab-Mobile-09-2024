@@ -1,23 +1,16 @@
-package com.example.pertemuan4.fragment;
+package com.example.pertemuan4;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import com.example.pertemuan4.DataSource;
-import com.example.pertemuan4.Instagram;
-import com.example.pertemuan4.PostinganAdapter;
-import com.example.pertemuan4.R;
-import com.example.pertemuan4.MainActivity;
 
 public class HomeFragment extends Fragment {
 

@@ -13,8 +13,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.pertemuan4.fragment.ProfileFragment;
-
 import java.util.ArrayList;
 
 public class PostinganAdapter extends RecyclerView.Adapter<PostinganAdapter.ViewHolder> {
@@ -27,13 +25,13 @@ public class PostinganAdapter extends RecyclerView.Adapter<PostinganAdapter.View
 
     @NonNull
     @Override
-    public PostinganAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.postingan, parent, false);
-        return new PostinganAdapter.ViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PostinganAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
         Instagram instagram1 = instagrams.get(position);
 

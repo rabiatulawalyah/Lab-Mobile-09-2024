@@ -40,7 +40,7 @@
                 android:padding="10dp"
                 android:textColor="#0629EF"
                 android:textStyle="bold"
-                tools:text="alyarawl" />
+                tools:text="alyahcans" />
 
             <TextView
                 android:id="@+id/TV_name"
@@ -51,7 +51,7 @@
                 android:padding="10dp"
                 android:textColor="@color/white"
                 android:layout_below="@+id/TV_username"
-                tools:text="rawl" />
+                tools:text="me" />
 
             <ImageView
                 android:id="@+id/IV_Delete"
